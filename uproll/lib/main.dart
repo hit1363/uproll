@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:uproll/responsive/mobile_screen_layout.dart';
+import 'package:uproll/responsive/responsive_layout.dart';
+import 'package:uproll/responsive/web_screen_layout.dart';
 import 'package:uproll/utils/colors.dart';
 
 void main() {
@@ -17,14 +20,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: mobileBackgroundColor
       ),
-      home: Scaffold(
-        body: Center(
-          child: Text(
-            'Hello, Uproll!',
-            style: TextStyle(fontSize: 24),
-          ),
-        ),
-      )
+      home: const ResponsiveLayout(
+        mobileScreenLayout: MobileScreenLayout(),
+        webScreenLayout: WebScreenLayout(),
+      ),
     );
   }
 }
