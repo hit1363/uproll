@@ -3,10 +3,10 @@ import 'package:uproll/utils/utils.dart';
 
 class ResponsiveLayout extends StatelessWidget {
   const ResponsiveLayout({
-    Key? key,
+    super.key,
     required this.webScreenLayout,
     required this.mobileScreenLayout,
-  }) : super(key: key);
+  });
 
   final Widget webScreenLayout;
   final Widget mobileScreenLayout;
