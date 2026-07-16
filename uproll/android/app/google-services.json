@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1006458705366",
+    "project_id": "uproll-612af",
+    "storage_bucket": "uproll-612af.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1006458705366:android:d19cef73fdff46dddb4077",
+        "android_client_info": {
+          "package_name": "com.hasib.uproll"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1006458705366-8chjip1nfj574cdum9pgbtvusjl8tf2n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-g682nP6K-UDeNln2df_p6giTMuRl8yM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1006458705366-8chjip1nfj574cdum9pgbtvusjl8tf2n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1006458705366:android:d08ad76d152ac038db4077",
+        "android_client_info": {
+          "package_name": "com.hit.uproll"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1006458705366-8chjip1nfj574cdum9pgbtvusjl8tf2n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-g682nP6K-UDeNln2df_p6giTMuRl8yM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1006458705366-8chjip1nfj574cdum9pgbtvusjl8tf2n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
